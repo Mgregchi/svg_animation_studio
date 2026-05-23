@@ -1,0 +1,108 @@
+{
+  "id": "ex-motion-path",
+  "name": "Motion Path",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#0d1117",
+  "duration": 3,
+  "objects": [
+    {
+      "id": "trail-dot-1",
+      "type": "circle",
+      "name": "Trail 1",
+      "x": 100,
+      "y": 250,
+      "width": 12,
+      "height": 12,
+      "radius": 6,
+      "fill": "#1d4ed8",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0.3,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-tr1",
+          "property": "motionPath",
+          "easing": "linear",
+          "startTime": 0.15,
+          "duration": 3,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "loop",
+          "keyframes": [],
+          "motionPath": "M 0 0 C 150 -150 400 150 600 0"
+        }
+      ]
+    },
+    {
+      "id": "trail-dot-2",
+      "type": "circle",
+      "name": "Trail 2",
+      "x": 100,
+      "y": 250,
+      "width": 20,
+      "height": 20,
+      "radius": 10,
+      "fill": "#3b82f6",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0.5,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-tr2",
+          "property": "motionPath",
+          "easing": "linear",
+          "startTime": 0.08,
+          "duration": 3,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "loop",
+          "keyframes": [],
+          "motionPath": "M 0 0 C 150 -150 400 150 600 0"
+        }
+      ]
+    },
+    {
+      "id": "orb",
+      "type": "circle",
+      "name": "Orb",
+      "x": 100,
+      "y": 250,
+      "width": 36,
+      "height": 36,
+      "radius": 18,
+      "fill": "#60a5fa",
+      "stroke": "#93c5fd",
+      "strokeWidth": 2,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "cssFilter": "drop-shadow(0 0 8px #3b82f6)",
+      "tracks": [
+        {
+          "id": "t-orb-path",
+          "property": "motionPath",
+          "easing": "easeInOut",
+          "startTime": 0,
+          "duration": 3,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "loop",
+          "keyframes": [],
+          "motionPath": "M 0 0 C 150 -150 400 150 600 0"
+        }
+      ]
+    }
+  ],
+  "audioTracks": []
+}

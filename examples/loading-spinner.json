@@ -1,0 +1,151 @@
+{
+  "id": "ex-loading-spinner",
+  "name": "Loading Spinner",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#0f172a",
+  "duration": 2,
+  "objects": [
+    {
+      "id": "dot1",
+      "type": "circle",
+      "name": "Dot 1",
+      "x": 284,
+      "y": 234,
+      "width": 32,
+      "height": 32,
+      "radius": 16,
+      "fill": "#3b82f6",
+      "fillGradient": {
+        "type": "radial",
+        "angle": 0,
+        "stops": [
+          { "offset": 0,   "color": "#93c5fd", "opacity": 1 },
+          { "offset": 1,   "color": "#1d4ed8", "opacity": 1 }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "cssFilter": "drop-shadow(0 0 6px #3b82f6)",
+      "tracks": [
+        {
+          "id": "t-d1-sy",
+          "property": "scaleY",
+          "easing": "easeInOut",
+          "startTime": 0,
+          "duration": 0.5,
+          "delay": 0,
+          "from": 0.4,
+          "to": 1.5,
+          "loop": "pingpong",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "dot2",
+      "type": "circle",
+      "name": "Dot 2",
+      "x": 384,
+      "y": 234,
+      "width": 32,
+      "height": 32,
+      "radius": 16,
+      "fill": "#3b82f6",
+      "fillGradient": {
+        "type": "radial",
+        "angle": 0,
+        "stops": [
+          { "offset": 0,   "color": "#93c5fd", "opacity": 1 },
+          { "offset": 1,   "color": "#1d4ed8", "opacity": 1 }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "cssFilter": "drop-shadow(0 0 6px #3b82f6)",
+      "tracks": [
+        {
+          "id": "t-d2-sy",
+          "property": "scaleY",
+          "easing": "easeInOut",
+          "startTime": 0.18,
+          "duration": 0.5,
+          "delay": 0,
+          "from": 0.4,
+          "to": 1.5,
+          "loop": "pingpong",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "dot3",
+      "type": "circle",
+      "name": "Dot 3",
+      "x": 484,
+      "y": 234,
+      "width": 32,
+      "height": 32,
+      "radius": 16,
+      "fill": "#3b82f6",
+      "fillGradient": {
+        "type": "radial",
+        "angle": 0,
+        "stops": [
+          { "offset": 0,   "color": "#93c5fd", "opacity": 1 },
+          { "offset": 1,   "color": "#1d4ed8", "opacity": 1 }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "cssFilter": "drop-shadow(0 0 6px #3b82f6)",
+      "tracks": [
+        {
+          "id": "t-d3-sy",
+          "property": "scaleY",
+          "easing": "easeInOut",
+          "startTime": 0.36,
+          "duration": 0.5,
+          "delay": 0,
+          "from": 0.4,
+          "to": 1.5,
+          "loop": "pingpong",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "name": "Label",
+      "x": 340,
+      "y": 308,
+      "width": 120,
+      "height": 20,
+      "fill": "#64748b",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Loading...",
+      "fontSize": 16,
+      "fontFamily": "system-ui",
+      "tracks": []
+    }
+  ],
+  "audioTracks": []
+}

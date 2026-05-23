@@ -1,0 +1,23 @@
+name: Documentation improvement
+description: Report a gap, error, or improvement in the docs or guides
+title: "docs: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is the issue?
+      placeholder: "CONTRIBUTING.md, examples/README.md, a specific guide..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Optional — paste the corrected text or describe what should be added.

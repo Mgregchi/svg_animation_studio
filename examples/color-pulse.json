@@ -1,0 +1,74 @@
+{
+  "id": "ex-color-pulse",
+  "name": "Color Pulse",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#111111",
+  "duration": 2,
+  "objects": [
+    {
+      "id": "bg",
+      "type": "rect",
+      "name": "Background",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 500,
+      "fill": "#2563eb",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-fill",
+          "property": "fill",
+          "easing": "easeInOut",
+          "startTime": 0,
+          "duration": 2,
+          "delay": 0,
+          "from": "#2563eb",
+          "to": "#7c3aed",
+          "loop": "pingpong",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "type": "text",
+      "name": "Label",
+      "x": 280,
+      "y": 220,
+      "width": 240,
+      "height": 60,
+      "fill": "#ffffff",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Color Pulse",
+      "fontSize": 42,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-label-op",
+          "property": "opacity",
+          "easing": "easeInOut",
+          "startTime": 0,
+          "duration": 2,
+          "delay": 0,
+          "from": 0.6,
+          "to": 1,
+          "loop": "pingpong",
+          "keyframes": []
+        }
+      ]
+    }
+  ],
+  "audioTracks": []
+}

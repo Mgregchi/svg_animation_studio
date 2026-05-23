@@ -1,0 +1,35 @@
+name: Example scene idea
+description: Suggest an example scene you'd like to see in the gallery
+title: "example idea: "
+labels: ["example", "help wanted"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What should the example show?
+      description: Describe the animation — what moves, how, what it's useful for.
+      placeholder: "A skeleton loading screen where grey placeholder bars shimmer left-to-right in sequence..."
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - beginner
+        - intermediate
+        - advanced
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: When would someone use this?
+      placeholder: "Loading states in dashboards, CMS previews, API-heavy pages..."
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Are you willing to build it?
+      options:
+        - label: "Yes, I'll submit the scene as a PR"
+        - label: "No, I'm suggesting it for someone else to build"

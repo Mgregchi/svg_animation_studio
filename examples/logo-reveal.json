@@ -1,0 +1,219 @@
+{
+  "id": "ex-logo-reveal",
+  "name": "Logo Reveal",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#0f0f1a",
+  "duration": 3,
+  "objects": [
+    {
+      "id": "bg-glow",
+      "type": "circle",
+      "name": "Glow",
+      "x": 330,
+      "y": 160,
+      "width": 140,
+      "height": 140,
+      "radius": 70,
+      "fill": "#1d4ed8",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "cssFilter": "blur(40px)",
+      "tracks": [
+        {
+          "id": "t-glow-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0.1,
+          "duration": 0.8,
+          "delay": 0,
+          "from": 0,
+          "to": 0.6,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "logo-ring",
+      "type": "circle",
+      "name": "Logo Ring",
+      "x": 350,
+      "y": 180,
+      "width": 100,
+      "height": 100,
+      "radius": 50,
+      "fill": "none",
+      "stroke": "#2563eb",
+      "strokeWidth": 3,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-ring-sx",
+          "property": "scaleX",
+          "easing": "easeOut",
+          "startTime": 0,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-ring-sy",
+          "property": "scaleY",
+          "easing": "easeOut",
+          "startTime": 0,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-ring-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0,
+          "duration": 0.4,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "logo-dot",
+      "type": "circle",
+      "name": "Logo Dot",
+      "x": 385,
+      "y": 215,
+      "width": 30,
+      "height": 30,
+      "radius": 15,
+      "fill": "#2563eb",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-dot-sx",
+          "property": "scaleX",
+          "easing": "easeOut",
+          "startTime": 0.3,
+          "duration": 0.5,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-dot-sy",
+          "property": "scaleY",
+          "easing": "easeOut",
+          "startTime": 0.3,
+          "duration": 0.5,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "name": "Title",
+      "x": 220,
+      "y": 310,
+      "width": 360,
+      "height": 50,
+      "fill": "#ffffff",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Your Brand",
+      "fontSize": 38,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-title-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0.7,
+          "duration": 0.8,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-title-y",
+          "property": "y",
+          "easing": "easeOut",
+          "startTime": 0.7,
+          "duration": 0.8,
+          "delay": 0,
+          "from": 330,
+          "to": 310,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "tagline",
+      "type": "text",
+      "name": "Tagline",
+      "x": 270,
+      "y": 360,
+      "width": 260,
+      "height": 28,
+      "fill": "#888899",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Motion that moves people",
+      "fontSize": 16,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-tag-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 1.2,
+          "duration": 0.7,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    }
+  ],
+  "audioTracks": []
+}

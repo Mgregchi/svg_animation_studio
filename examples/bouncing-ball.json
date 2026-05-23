@@ -1,0 +1,114 @@
+{
+  "id": "ex-bounce",
+  "name": "Bouncing Ball",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#1a1a2e",
+  "duration": 1.4,
+  "objects": [
+    {
+      "id": "ball",
+      "type": "circle",
+      "name": "Ball",
+      "x": 360,
+      "y": 60,
+      "width": 80,
+      "height": 80,
+      "radius": 40,
+      "fill": "#f59e0b",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 1,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-y",
+          "property": "y",
+          "easing": "linear",
+          "startTime": 0,
+          "duration": 1.4,
+          "delay": 0,
+          "from": 60,
+          "to": 360,
+          "loop": "pingpong",
+          "keyframes": [
+            { "id": "k1", "time": 0,   "value": 60,  "easing": "easeIn" },
+            { "id": "k2", "time": 0.7, "value": 360, "easing": "easeOut" },
+            { "id": "k3", "time": 1,   "value": 60,  "easing": "easeIn" }
+          ]
+        },
+        {
+          "id": "t-sx",
+          "property": "scaleX",
+          "easing": "linear",
+          "startTime": 0,
+          "duration": 1.4,
+          "delay": 0,
+          "from": 1,
+          "to": 1,
+          "loop": "pingpong",
+          "keyframes": [
+            { "id": "k4", "time": 0,    "value": 1,    "easing": "linear" },
+            { "id": "k5", "time": 0.68, "value": 1,    "easing": "easeOut" },
+            { "id": "k6", "time": 0.72, "value": 1.35, "easing": "easeOut" },
+            { "id": "k7", "time": 1,    "value": 1,    "easing": "linear" }
+          ]
+        },
+        {
+          "id": "t-sy",
+          "property": "scaleY",
+          "easing": "linear",
+          "startTime": 0,
+          "duration": 1.4,
+          "delay": 0,
+          "from": 1,
+          "to": 1,
+          "loop": "pingpong",
+          "keyframes": [
+            { "id": "k8",  "time": 0,    "value": 1,    "easing": "linear" },
+            { "id": "k9",  "time": 0.68, "value": 1,    "easing": "easeOut" },
+            { "id": "k10", "time": 0.72, "value": 0.65, "easing": "easeOut" },
+            { "id": "k11", "time": 1,    "value": 1,    "easing": "linear" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "type": "ellipse",
+      "name": "Shadow",
+      "x": 355,
+      "y": 435,
+      "width": 90,
+      "height": 18,
+      "fill": "rgba(0,0,0,0.35)",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0.6,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "tracks": [
+        {
+          "id": "t-sh-sx",
+          "property": "scaleX",
+          "easing": "linear",
+          "startTime": 0,
+          "duration": 1.4,
+          "delay": 0,
+          "from": 1,
+          "to": 1,
+          "loop": "pingpong",
+          "keyframes": [
+            { "id": "ks1", "time": 0,    "value": 0.5, "easing": "easeIn" },
+            { "id": "ks2", "time": 0.7,  "value": 1,   "easing": "easeOut" },
+            { "id": "ks3", "time": 1,    "value": 0.5, "easing": "easeIn" }
+          ]
+        }
+      ]
+    }
+  ],
+  "audioTracks": []
+}

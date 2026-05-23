@@ -1,0 +1,155 @@
+{
+  "id": "ex-text-reveal",
+  "name": "Staggered Text Reveal",
+  "width": 800,
+  "height": 500,
+  "backgroundColor": "#09090b",
+  "duration": 2.5,
+  "objects": [
+    {
+      "id": "line1",
+      "type": "text",
+      "name": "Line 1",
+      "x": 248,
+      "y": 100,
+      "width": 304,
+      "height": 90,
+      "fill": "#f8fafc",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Think.",
+      "fontSize": 88,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-l1-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-l1-y",
+          "property": "y",
+          "easing": "easeOut",
+          "startTime": 0,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 130,
+          "to": 100,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "line2",
+      "type": "text",
+      "name": "Line 2",
+      "x": 192,
+      "y": 210,
+      "width": 416,
+      "height": 90,
+      "fill": "#3b82f6",
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Design.",
+      "fontSize": 88,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-l2-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0.25,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-l2-y",
+          "property": "y",
+          "easing": "easeOut",
+          "startTime": 0.25,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 240,
+          "to": 210,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    },
+    {
+      "id": "line3",
+      "type": "text",
+      "name": "Line 3",
+      "x": 265,
+      "y": 320,
+      "width": 270,
+      "height": 90,
+      "fill": "#6366f1",
+      "fillGradient": {
+        "type": "linear",
+        "angle": 0,
+        "stops": [
+          { "offset": 0,   "color": "#3b82f6", "opacity": 1 },
+          { "offset": 0.5, "color": "#8b5cf6", "opacity": 1 },
+          { "offset": 1,   "color": "#ec4899", "opacity": 1 }
+        ]
+      },
+      "stroke": "none",
+      "strokeWidth": 0,
+      "opacity": 0,
+      "rotation": 0,
+      "visible": true,
+      "locked": false,
+      "content": "Ship.",
+      "fontSize": 88,
+      "fontFamily": "system-ui",
+      "tracks": [
+        {
+          "id": "t-l3-op",
+          "property": "opacity",
+          "easing": "easeOut",
+          "startTime": 0.5,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 0,
+          "to": 1,
+          "loop": "none",
+          "keyframes": []
+        },
+        {
+          "id": "t-l3-y",
+          "property": "y",
+          "easing": "easeOut",
+          "startTime": 0.5,
+          "duration": 0.6,
+          "delay": 0,
+          "from": 350,
+          "to": 320,
+          "loop": "none",
+          "keyframes": []
+        }
+      ]
+    }
+  ],
+  "audioTracks": []
+}
