@@ -40,7 +40,7 @@ A good example scene:
 
 ### Step 1 — Build it
 
-Open [SVG Animation Studio](https://github.com/Mgregchi/svg-animation-studio) and build your scene. Take your time — polish matters.
+Open [SVG Animation Studio](https://svg-animation-studio.netlify.app) and build your scene. Take your time — polish matters.
 
 **Tips:**
 - Use `800 × 500` canvas (the default) so it fits the gallery preview

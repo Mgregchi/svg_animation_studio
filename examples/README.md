@@ -1,6 +1,6 @@
 # Example scenes
 
-Each file in this folder is a JSON scene that loads directly into [SVG Animation Studio](https://github.com/Mgregchi/svg-animation-studio).
+Each file in this folder is a JSON scene that loads directly into [SVG Animation Studio](https://svg-animation-studio.netlify.app).
 
 To load an example in the app: **Help → Examples → Load as new scene**.
 
