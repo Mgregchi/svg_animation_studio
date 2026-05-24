@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "examples": [
+    {
+      "id": "bouncing-ball",
+      "name": "Bouncing Ball",
+      "description": "A simple ball that bounces up and down with easing — great for learning keyframe animation.",
+      "tags": ["motion", "beginner", "loop"],
+      "file": "examples/bouncing-ball.json"
+    },
+    {
+      "id": "logo-reveal",
+      "name": "Logo Reveal",
+      "description": "A two-element reveal: a circle scales in, then a title fades up — classic opener sequence.",
+      "tags": ["reveal", "text", "beginner"],
+      "file": "examples/logo-reveal.json"
+    },
+    {
+      "id": "color-pulse",
+      "name": "Color Pulse",
+      "description": "A background rectangle that pulses between two colors in a ping-pong loop.",
+      "tags": ["color", "loop", "beginner"],
+      "file": "examples/color-pulse.json"
+    },
+    {
+      "id": "motion-path",
+      "name": "Motion Path",
+      "description": "A circle follows a curved SVG path across the canvas — demonstrates motionPath tracks.",
+      "tags": ["motion", "path", "intermediate"],
+      "file": "examples/motion-path.json"
+    },
+    {
+      "id": "ex-progress-bar",
+      "name": "Progress Bar",
+      "description": "A gradient progress bar with glow effect that fills across the canvas, then swaps 'Loading…' for 'Complete!'.",
+      "tags": ["ui", "gradient", "intermediate"],
+      "file": "examples/progress-bar.json"
+    },
+    {
+      "id": "ex-text-reveal",
+      "name": "Staggered Text Reveal",
+      "description": "Three words — Think. Design. Ship. — fade and slide up in sequence with a stagger delay.",
+      "tags": ["text", "reveal", "intermediate"],
+      "file": "examples/staggered-text-reveal.json"
+    },
+    {
+      "id": "ex-loading-spinner",
+      "name": "Loading Spinner",
+      "description": "Three dots bounce up and down in a staggered ping-pong loop — a classic loading indicator.",
+      "tags": ["ui", "loop", "beginner"],
+      "file": "examples/loading-spinner.json"
+    },
+    {
+      "id": "ex-gradient-sunrise",
+      "name": "Gradient Sunrise",
+      "description": "A radial-gradient sun rises from below the horizon as the night-sky overlay fades out.",
+      "tags": ["gradient", "motion", "intermediate"],
+      "file": "examples/gradient-sunrise.json"
+    }
+  ]
+}

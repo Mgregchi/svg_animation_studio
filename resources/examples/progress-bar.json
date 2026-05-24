@@ -116,14 +116,14 @@
       "cssFilter": "drop-shadow(0 0 6px #3b82f6)",
       "tracks": [
         {
-          "id": "t-bar-sx",
-          "property": "scaleX",
+          "id": "t-bar-w",
+          "property": "width",
           "easing": "easeInOut",
           "startTime": 0,
           "duration": 2.8,
           "delay": 0,
           "from": 0,
-          "to": 1,
+          "to": 600,
           "loop": "none",
           "keyframes": []
         }
@@ -147,14 +147,14 @@
       "cssFilter": "blur(6px)",
       "tracks": [
         {
-          "id": "t-glow-sx",
-          "property": "scaleX",
+          "id": "t-glow-w",
+          "property": "width",
           "easing": "easeInOut",
           "startTime": 0,
           "duration": 2.8,
           "delay": 0,
           "from": 0,
-          "to": 1,
+          "to": 600,
           "loop": "none",
           "keyframes": []
         }

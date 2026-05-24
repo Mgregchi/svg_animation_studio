@@ -57,7 +57,7 @@ Save the file with a descriptive kebab-case name: `card-flip-reveal.json`, `dot-
 ### Step 3 — Fork and PR
 
 1. Fork this repository
-2. Add your JSON file to `examples/`
+2. Add your JSON file to `resources/examples/`
 3. Open a pull request using the [example submission template](.github/PULL_REQUEST_TEMPLATE/example.md)
 
 Fill in the PR template fully — especially the description and what technique it demonstrates.

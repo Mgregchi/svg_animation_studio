@@ -57,8 +57,10 @@ This repository serves as the community hub for SVG Animation Studio. Here you w
 
 | Folder | Contents |
 |---|---|
-| [`examples/`](examples/) | Curated example scenes (JSON) — load any into the editor in one click |
+| [`resources/docs/`](resources/docs/) | Guides, workflow tutorials, and reference material |
+| [`resources/examples/`](resources/examples/) | Curated example scenes (JSON) — load any into the editor in one click |
 | [`.github/`](.github/) | Pull request and issue templates for contributing |
+
 
 ### Current example scenes
 

@@ -23,7 +23,7 @@ To load an example in the app: **Help → Examples → Load as new scene**.
 
 ## Adding an example
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full guide and quality checklist.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md) for the full guide and quality checklist.
 
 Short version:
 1. Build your scene in the studio
