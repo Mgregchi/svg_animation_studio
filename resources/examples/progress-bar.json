@@ -102,9 +102,9 @@
         "type": "linear",
         "angle": 0,
         "stops": [
-          { "offset": 0,   "color": "#6366f1", "opacity": 1 },
+          { "offset": 0, "color": "#6366f1", "opacity": 1 },
           { "offset": 0.5, "color": "#3b82f6", "opacity": 1 },
-          { "offset": 1,   "color": "#06b6d4", "opacity": 1 }
+          { "offset": 1, "color": "#06b6d4", "opacity": 1 }
         ]
       },
       "stroke": "none",
